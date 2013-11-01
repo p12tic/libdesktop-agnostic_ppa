@@ -51,7 +51,7 @@ libdesktop-agnostic (0.3.92-1) unstable; urgency=low
    - Bump build-depends for valac-0.10 to (>= 0.10.0).
    - Build-depends on intltool.
    - Bump build-depends on libglib2.0-dev to (>= 2.18.0) for the fdo gio
-     module. 
+     module.
    - Drop gir1.0-desktopagnostic-1.0 binary, support was removed upstream.
    - Add new libdesktop-agnostic-fdo-gio binary.
    - Remove vala-desktop-agnostic binary, merged in libdesktop-agnostic-dev.
@@ -88,7 +88,7 @@ libdesktop-agnostic (0.3.92-1) unstable; urgency=low
 
 libdesktop-agnostic (0.3.90-2) unstable; urgency=low
 
-  * Upload to unstable. 
+  * Upload to unstable.
 
  -- Julien Lavergne <julien.lavergne@gmail.com>  Sat, 05 Jun 2010 19:44:09 +0200
 
@@ -102,10 +102,10 @@ libdesktop-agnostic (0.3.90-1) experimental; urgency=low
   * debian/libdesktop-agnostic0.symbols: Add.
   * Remove 01-awn-fixes.patch.
   * Add documentation
-   - debian/control: 
+   - debian/control:
     + Add build-depends on python-sphinx.
     + Add libdesktop-agnostic-doc binary.
-   - debian/rules: 
+   - debian/rules:
     + Add --enable-docs.
     + Add sphinx.pyc to the clean target.
    - libdesktop-agnostic-doc.install: Install the documentation.
@@ -115,10 +115,10 @@ libdesktop-agnostic (0.3.90-1) experimental; urgency=low
 
 libdesktop-agnostic (0.3.90-0ubuntu1) lucid; urgency=low
 
-  * New upstream official release, replacing the patched bzr snapshot. 
+  * New upstream official release, replacing the patched bzr snapshot.
     (LP: #565340)
    - Fix support on non-english system.
-   - Ship generated .c files to avoid breakage with new Vala versions. 
+   - Ship generated .c files to avoid breakage with new Vala versions.
   * debian/patches/01-awn-fixes.patch: Merged usptream.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Sun, 18 Apr 2010 01:46:37 +0200
@@ -148,6 +148,6 @@ libdesktop-agnostic (0.0.1~bzr383-0ubuntu2) lucid; urgency=low
 libdesktop-agnostic (0.0.1~bzr383-0ubuntu1) lucid; urgency=low
 
   * Initial release. LP: #496307
-  * Pack upstream snapshot without debian directory. 
+  * Pack upstream snapshot without debian directory.
 
  -- Julien Lavergne <gilir@ubuntu.com>  Fri, 01 Jan 2010 23:33:31 +0100
